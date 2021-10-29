@@ -16,6 +16,9 @@
 		CE270A6B272C253B0088F376 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE270A69272C253B0088F376 /* LaunchScreen.storyboard */; };
 		CE270A76272C253C0088F376 /* Sizov_Vlad_IOS_HW4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE270A75272C253C0088F376 /* Sizov_Vlad_IOS_HW4Tests.swift */; };
 		CE270A81272C253C0088F376 /* Sizov_Vlad_IOS_HW4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE270A80272C253C0088F376 /* Sizov_Vlad_IOS_HW4UITests.swift */; };
+		CE270A91272C375B0088F376 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE270A90272C375B0088F376 /* NoteCell.swift */; };
+		CE270A93272C395D0088F376 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE270A92272C395D0088F376 /* NoteViewController.swift */; };
+		CE270AD2272C543D0088F376 /* CoreDataNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE270AD0272C543D0088F376 /* CoreDataNotes.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		CE270A7C272C253C0088F376 /* Sizov_Vlad_IOS_HW4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sizov_Vlad_IOS_HW4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE270A80272C253C0088F376 /* Sizov_Vlad_IOS_HW4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sizov_Vlad_IOS_HW4UITests.swift; sourceTree = "<group>"; };
 		CE270A82272C253C0088F376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE270A90272C375B0088F376 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		CE270A92272C395D0088F376 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		CE270AD1272C543D0088F376 /* CoreDataNotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataNotes.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				CE270A69272C253B0088F376 /* LaunchScreen.storyboard */,
 				CE270A6C272C253B0088F376 /* Info.plist */,
 				CE270A64272C25390088F376 /* Sizov_Vlad_IOS_HW4.xcdatamodeld */,
+				CE270A90272C375B0088F376 /* NoteCell.swift */,
+				CE270A92272C395D0088F376 /* NoteViewController.swift */,
+				CE270AD0272C543D0088F376 /* CoreDataNotes.xcdatamodeld */,
 			);
 			path = Sizov_Vlad_IOS_HW4;
 			sourceTree = "<group>";
@@ -263,7 +272,10 @@
 			files = (
 				CE270A66272C25390088F376 /* Sizov_Vlad_IOS_HW4.xcdatamodeld in Sources */,
 				CE270A60272C25390088F376 /* ViewController.swift in Sources */,
+				CE270A91272C375B0088F376 /* NoteCell.swift in Sources */,
 				CE270A5C272C25390088F376 /* AppDelegate.swift in Sources */,
+				CE270AD2272C543D0088F376 /* CoreDataNotes.xcdatamodeld in Sources */,
+				CE270A93272C395D0088F376 /* NoteViewController.swift in Sources */,
 				CE270A5E272C25390088F376 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -606,6 +618,16 @@
 			);
 			currentVersion = CE270A65272C25390088F376 /* Sizov_Vlad_IOS_HW4.xcdatamodel */;
 			path = Sizov_Vlad_IOS_HW4.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		CE270AD0272C543D0088F376 /* CoreDataNotes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE270AD1272C543D0088F376 /* CoreDataNotes.xcdatamodel */,
+			);
+			currentVersion = CE270AD1272C543D0088F376 /* CoreDataNotes.xcdatamodel */;
+			path = CoreDataNotes.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
