@@ -107,7 +107,7 @@ extension ViewController: UICollectionViewDataSource {
                                                 "NoteCell", for: indexPath) as! NoteCell
         let note = notes[indexPath.row]
         cell.titleLabel.text = note.title
-        cell.descriptionLabel.text = note.description
+        cell.descriptionLabel.text = note.descriptionText
         
         return cell
     }

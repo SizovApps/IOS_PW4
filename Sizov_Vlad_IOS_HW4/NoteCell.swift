@@ -22,4 +22,10 @@ class NoteCell: UICollectionViewCell {
     
      return cell
      }
+    
+    override func awakeFromNib() {
+            super.awakeFromNib()
+            contentView.translatesAutoresizingMaskIntoConstraints = false
+            contentView.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width - 32).isActive = true
+        }
 }

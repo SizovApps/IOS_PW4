@@ -20,7 +20,7 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="hQu-3F-9uT">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="avh-Z6-zSx">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="avh-Z6-zSx">
                                     <size key="itemSize" width="311" height="76"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -34,23 +34,27 @@
                                             <rect key="frame" x="0.0" y="0.0" width="311" height="76"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KfZ-Ba-VwW">
-                                                    <rect key="frame" x="10" y="10" width="42" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KfZ-Ba-VwW">
+                                                    <rect key="frame" x="20" y="0.0" width="271" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" systemColor="systemBlueColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZVF-gj-AzJ">
-                                                    <rect key="frame" x="10" y="39" width="41.5" height="21"/>
+                                                    <rect key="frame" x="10" y="35.5" width="291" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" systemColor="systemBlueColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="ZVF-gj-AzJ" firstAttribute="leading" secondItem="hSm-wc-Vmn" secondAttribute="leading" constant="10" id="MYS-ga-gm9"/>
-                                                <constraint firstItem="KfZ-Ba-VwW" firstAttribute="leading" secondItem="hSm-wc-Vmn" secondAttribute="leading" constant="10" id="RYk-lE-rZH"/>
-                                                <constraint firstItem="KfZ-Ba-VwW" firstAttribute="top" secondItem="hSm-wc-Vmn" secondAttribute="top" constant="10" id="Y89-or-upy"/>
+                                                <constraint firstItem="ZVF-gj-AzJ" firstAttribute="leading" secondItem="hSm-wc-Vmn" secondAttribute="leading" constant="10" id="5I6-5N-3ih"/>
+                                                <constraint firstItem="KfZ-Ba-VwW" firstAttribute="leading" secondItem="hSm-wc-Vmn" secondAttribute="leading" constant="20" id="5iq-tc-Gk5"/>
+                                                <constraint firstAttribute="bottom" secondItem="ZVF-gj-AzJ" secondAttribute="bottom" constant="20" id="73Y-Jp-5fV"/>
+                                                <constraint firstAttribute="trailing" secondItem="ZVF-gj-AzJ" secondAttribute="trailing" constant="10" id="A4F-au-Lwi"/>
+                                                <constraint firstItem="KfZ-Ba-VwW" firstAttribute="top" secondItem="hSm-wc-Vmn" secondAttribute="top" id="B2p-3L-UIF"/>
+                                                <constraint firstItem="ZVF-gj-AzJ" firstAttribute="top" secondItem="KfZ-Ba-VwW" secondAttribute="bottom" constant="20" id="phl-ip-g9q"/>
+                                                <constraint firstAttribute="trailing" secondItem="KfZ-Ba-VwW" secondAttribute="trailing" constant="20" id="sas-za-4ae"/>
                                             </constraints>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
