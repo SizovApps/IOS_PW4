@@ -19,6 +19,8 @@
 		CE270A91272C375B0088F376 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE270A90272C375B0088F376 /* NoteCell.swift */; };
 		CE270A93272C395D0088F376 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE270A92272C395D0088F376 /* NoteViewController.swift */; };
 		CE270AD2272C543D0088F376 /* CoreDataNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE270AD0272C543D0088F376 /* CoreDataNotes.xcdatamodeld */; };
+		CE270AD5272C7B620088F376 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE270AD3272C7B620088F376 /* Note+CoreDataClass.swift */; };
+		CE270AD6272C7B620088F376 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE270AD4272C7B620088F376 /* Note+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		CE270A90272C375B0088F376 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
 		CE270A92272C395D0088F376 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 		CE270AD1272C543D0088F376 /* CoreDataNotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataNotes.xcdatamodel; sourceTree = "<group>"; };
+		CE270AD3272C7B620088F376 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CE270AD4272C7B620088F376 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		CE270A4F272C25380088F376 = {
 			isa = PBXGroup;
 			children = (
+				CE270AD3272C7B620088F376 /* Note+CoreDataClass.swift */,
+				CE270AD4272C7B620088F376 /* Note+CoreDataProperties.swift */,
 				CE270A5A272C25390088F376 /* Sizov_Vlad_IOS_HW4 */,
 				CE270A74272C253C0088F376 /* Sizov_Vlad_IOS_HW4Tests */,
 				CE270A7F272C253C0088F376 /* Sizov_Vlad_IOS_HW4UITests */,
@@ -275,8 +281,10 @@
 				CE270A91272C375B0088F376 /* NoteCell.swift in Sources */,
 				CE270A5C272C25390088F376 /* AppDelegate.swift in Sources */,
 				CE270AD2272C543D0088F376 /* CoreDataNotes.xcdatamodeld in Sources */,
+				CE270AD5272C7B620088F376 /* Note+CoreDataClass.swift in Sources */,
 				CE270A93272C395D0088F376 /* NoteViewController.swift in Sources */,
 				CE270A5E272C25390088F376 /* SceneDelegate.swift in Sources */,
+				CE270AD6272C7B620088F376 /* Note+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,10 +7,7 @@
 
 import UIKit
 
-struct Note {
-    let title: String
-    let description: String
-}
+
 
 class NoteViewController : UIViewController {
     
@@ -32,14 +29,17 @@ class NoteViewController : UIViewController {
     
     
     @objc func didTapSaveNote(button: UIBarButtonItem) {
-        let title = titleTextField.text ?? ""
-        let description = textView.text ?? ""
-        if !title.isEmpty {
-            let newNote = Note(title: title, description: description)
-            outputVC.notes.append(newNote)
-        }
-        self.navigationController?.popViewController(animated: true)
-    }
+     let title = titleTextField.text ?? ""
+     let descriptionText = textView.text ?? ""
+     if !title.isEmpty {
+     let newNote = Note(context: outputVC.context)
+     newNote.title = title
+     newNote.descriptionText = descriptionText
+     newNote.creationDate = Date()
+     outputVC.saveChanges()
+     }
+     self.navigationController?.popViewController(animated: true)
+     }
     
     
     
